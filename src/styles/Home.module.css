@@ -1,0 +1,74 @@
+.container {
+  @apply py-0 px-8;
+}
+
+.main {
+  @apply flex flex-1 flex-col justify-center items-center min-h-screen py-16 px-0;
+}
+
+.footer {
+  @apply flex flex-1 justify-center items-center py-8 px-0 border-t border-solid border-gray-200;
+}
+
+.footer a {
+  @apply flex flex-grow justify-center items-center;
+}
+
+.title a {
+  @apply text-blue-600 no-underline;
+}
+
+.title a:hover,
+.title a:focus,
+.title a:active {
+  @apply underline;
+}
+
+.title {
+  @apply m-0 text-6xl;
+}
+
+.title,
+.description {
+  @apply text-center;
+}
+
+.description {
+  @apply my-16 mx-0 text-2xl;
+}
+
+.code {
+  @apply bg-gray-50 rounded-md p-3 text-lg font-mono;
+}
+
+.grid {
+  @apply max-w-3xl flex flex-wrap justify-center items-center;
+}
+
+.card {
+  @apply text-left max-w-xs m-4 p-6 no-underline border border-solid rounded-lg border-gray-200 transition-colors;
+}
+
+.card:hover,
+.card:focus,
+.card:active {
+  @apply text-blue-600 border-blue-600;
+}
+
+.card h2 {
+  @apply text-2xl m-0 mb-4;
+}
+
+.card p {
+  @apply m-0 text-xl;
+}
+
+.logo {
+  @apply h-4 ml-2;
+}
+
+@media (max-width: 640px) {
+  .grid {
+    @apply flex-col w-full;
+  }
+}
