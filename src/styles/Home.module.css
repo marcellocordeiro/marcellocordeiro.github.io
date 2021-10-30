@@ -6,12 +6,8 @@
   @apply flex flex-1 flex-col justify-center items-center min-h-screen py-16 px-0;
 }
 
-.footer {
-  @apply flex flex-1 justify-center items-center py-8 px-0 border-t border-solid border-gray-200;
-}
-
-.footer a {
-  @apply flex flex-grow justify-center items-center;
+.title {
+  @apply m-0 text-6xl;
 }
 
 .title a {
@@ -22,10 +18,6 @@
 .title a:focus,
 .title a:active {
   @apply underline;
-}
-
-.title {
-  @apply m-0 text-6xl;
 }
 
 .title,
@@ -42,7 +34,13 @@
 }
 
 .grid {
-  @apply max-w-3xl flex flex-wrap justify-center items-center;
+  @apply flex flex-wrap max-w-3xl justify-center items-center;
+}
+
+@media (max-width: 640px) {
+  .grid {
+    @apply flex-col w-full;
+  }
 }
 
 .card {
@@ -63,12 +61,14 @@
   @apply m-0 text-xl;
 }
 
-.logo {
-  @apply h-4 ml-2;
+.footer {
+  @apply flex flex-1 justify-center items-center py-8 px-0 border-t border-solid border-gray-200;
 }
 
-@media (max-width: 640px) {
-  .grid {
-    @apply flex-col w-full;
-  }
+.footer a {
+  @apply flex flex-grow justify-center items-center;
+}
+
+.logo {
+  @apply h-4 ml-2;
 }
