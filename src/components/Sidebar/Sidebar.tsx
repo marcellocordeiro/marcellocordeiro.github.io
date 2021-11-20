@@ -1,3 +1,1 @@
-export const Sidebar = () => {
-  return null;
-};
+export const Sidebar = () => null;
