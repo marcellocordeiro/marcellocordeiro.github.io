@@ -3,7 +3,7 @@
 }
 
 .main {
-  @apply flex flex-1 flex-col justify-center items-center min-h-screen py-16 px-0;
+  @apply flex min-h-screen flex-1 flex-col items-center justify-center py-16 px-0;
 }
 
 .title {
@@ -30,31 +30,31 @@
 }
 
 .code {
-  @apply bg-gray-50 rounded-md p-3 text-lg font-mono;
+  @apply rounded-md bg-gray-50 p-3 font-mono text-lg;
 }
 
 .grid {
-  @apply flex flex-wrap max-w-3xl justify-center items-center;
+  @apply flex max-w-3xl flex-wrap items-center justify-center;
 }
 
 @media (max-width: 640px) {
   .grid {
-    @apply flex-col w-full;
+    @apply w-full flex-col;
   }
 }
 
 .card {
-  @apply text-left max-w-xs m-4 p-6 no-underline border border-solid rounded-lg border-gray-200 transition-colors;
+  @apply m-4 max-w-xs rounded-lg border border-solid border-gray-200 p-6 text-left no-underline transition-colors;
 }
 
 .card:hover,
 .card:focus,
 .card:active {
-  @apply text-blue-600 border-blue-600;
+  @apply border-blue-600 text-blue-600;
 }
 
 .card h2 {
-  @apply text-2xl m-0 mb-4;
+  @apply m-0 mb-4 text-2xl;
 }
 
 .card p {
@@ -62,13 +62,13 @@
 }
 
 .footer {
-  @apply flex flex-1 justify-center items-center py-8 px-0 border-t border-solid border-gray-200;
+  @apply flex flex-1 items-center justify-center border-t border-solid border-gray-200 py-8 px-0;
 }
 
 .footer a {
-  @apply flex flex-grow justify-center items-center;
+  @apply flex flex-grow items-center justify-center;
 }
 
 .logo {
-  @apply h-4 ml-2;
+  @apply ml-2 h-4;
 }
