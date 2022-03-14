@@ -5,7 +5,7 @@ import styles from "@/styles/Home.module.css";
 
 import type { NextPage } from "next";
 
-const Home: NextPage = (): JSX.Element => (
+const Home: NextPage = () => (
   <div className={styles.container}>
     <Head>
       <title>Create Next App</title>
@@ -35,7 +35,7 @@ const Home: NextPage = (): JSX.Element => (
         </a>
 
         <a
-          href="https://github.com/vercel/next.js/tree/master/examples"
+          href="https://github.com/vercel/next.js/tree/canary/examples"
           className={styles.card}
         >
           <h2>Examples &rarr;</h2>

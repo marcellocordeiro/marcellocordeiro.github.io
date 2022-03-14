@@ -3,7 +3,7 @@ import styles from "@/styles/Home.module.css";
 
 import type { NextPage } from "next";
 
-const Home: NextPage = (): JSX.Element => (
+const Home: NextPage = () => (
   <MainLayout>
     <h1 className={styles.title}>
       Welcome to <a href="https://nextjs.org">Next.js!</a>
