@@ -6,7 +6,6 @@ const nextConfig = {
     legacyBrowsers: false,
     browsersListForSwc: true,
     newNextLinkBehavior: true,
-    images: { allowFutureImage: true },
   },
 };
 
